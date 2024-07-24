@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./img/note.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="temp.js"></script>
+    <title>NoteBoard</title>
+</head>
+
+<body onload="render(), includeHTML()">
+  <div w3-include-html="templates/header.html"></div>
+
+    <div class="impressum">
+        <h1>Impressum</h1>
+
+        <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
+        <p>
+          Serdar Yildirim <br />
+          Altvaterstrasse 23<br />
+          30457 Hannover
+        </p>
+
+        <h2>Kontakt</h2>
+        <p>
+          E-Mail: seyil1978@gmail.com
+        </p>
+
+        <p>
+          Quelle:
+          <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>
+        </p>
+
+        <p>Created my free logo at</p>
+        <a href="https://logomakr.com" target="_blank">LogoMakr.com</a>
+
+          >Creative Commons Attribution 4.0 International license <br
+        /></a>
+      </div>
+    <div w3-include-html="./templates/footer.html"></div>
+</body>
+</html>

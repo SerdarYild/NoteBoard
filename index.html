@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./img/note.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="temp.js"></script>
+    <title>NoteBoard</title>
+</head>
+
+<body onload="render(), includeHTML()">
+
+<header>
+    <a href="./index.html"><img class="logonb" src="./img/logonb.jpg"/></a>
+    <div class="nav-container">
+      <a href="./index.html"><img class="nav-btn" src="./img/btnnote.png"/></a>
+      <a onclick="renderDeleted()"><img class="nav-btn" src="./img/btndeleted.png"/></a>
+    </div>
+</header>
+
+    <div class="page-container">
+      <div class="content-area">
+        <div id="inputContainer" class="input-entry"></div>
+        <div class="content-section" id="content"></div>
+      </div>
+    </div>
+
+</body>
+</html>
